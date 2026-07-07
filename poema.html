@@ -309,21 +309,44 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             .welcome-message {
-                font-size: 36px;
+                font-size: 32px;
+                padding: 0 20px;
+            }
+            
+            .container {
+                margin-top: 20px;
+                padding: 12px;
             }
             
             .tabs {
-                flex-direction: column;
-                align-items: center;
+                gap: 8px;
+                margin-bottom: 20px;
             }
             
             .tab {
-                width: 100%;
+                padding: 10px 14px;
+                font-size: 14px;
+                flex: 1;
                 justify-content: center;
+                white-space: nowrap;
             }
             
-            .gallery {
-                grid-template-columns: repeat(2, 1fr);
+            .content-area {
+                padding: 20px 15px;
+                min-height: 350px;
+            }
+            
+            .letter {
+                padding: 15px;
+            }
+            
+            .letter-header h3 {
+                font-size: 22px;
+            }
+            
+            .letter-content p {
+                font-size: 15px;
+                line-height: 1.5;
             }
         }
     </style>
@@ -390,7 +413,7 @@
                     <div class="song-icon">🎵</div>
                     <div class="song-info">
                         <h4>Pruébame a ti</h4>
-                        <p>de Jesús Adrián Romero</p>
+                        <p>de Jósean Log</p>
                     </div>
                 </a>
             </div>
